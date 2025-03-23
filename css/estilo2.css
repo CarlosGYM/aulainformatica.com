@@ -92,7 +92,7 @@ section.terceira img{
 section.link{
 	width: 30vw;
 	height:4.5vh;
-	background-color: rgb(255, 255, 255, 0.5);
+	background-color: #007FFF;
 	margin-left: 35vw;
 	flex-direction: column;
 	border-radius: 16px;
