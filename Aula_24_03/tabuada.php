@@ -7,20 +7,15 @@
 </form>
 <?php
 if(isset($_GET['botao'])){
-	echo "<section class='conteudo'>"
-	$numero=$_GET['multiplica']
-	$multiplica=0;
-		for ($contador=$numero; $numero<=10 ; $contador++) { 
-			$multiplica=$numero*$contador;
-			
-		}
+	echo "<section class='conteudo'>";
+	$numero=$_GET['numero'];
+	for ($contador=1; $contador<=10 ; $contador++) { 
+		$multiplicacao=$numero*$contador;
+		echo "<p>$numero x $contador = $multiplicacao</p>";
 
 	}
-
-
-
-
-
-
-
+	echo "</section>";
+}
 ?>
+</body>
+</html>
